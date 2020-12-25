@@ -28,8 +28,8 @@ a {
 
 .header-container {
   width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -220,7 +220,17 @@ ul {
 
 /* портфолио */
 
+.portfolio-section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 34px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .horizontal-buttons {
+  margin-bottom: 34px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -238,6 +248,8 @@ li button:focus {
 }
 
 .cards h2 {
+  margin-top: 20px;
+  margin-bottom: 4px;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -246,6 +258,8 @@ li button:focus {
 }
 
 .cards p {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
