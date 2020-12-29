@@ -3,6 +3,7 @@
   --secondary-text-color: #ffffff;
   --title-color: #212121;
   --accent-color: #2196f3;
+  --background-color: #2f303a;
 }
 
 body {
@@ -164,8 +165,8 @@ img {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
-  background-color: #2f303a;
+  padding-bottom: 200px;
+  background-color: var(--background-color);
 }
 
 .container {
@@ -177,6 +178,7 @@ img {
 }
 
 .hero .container {
+  width: 696px;
   text-align: center;
 }
 
@@ -382,7 +384,7 @@ li button:focus {
 /* футер */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
