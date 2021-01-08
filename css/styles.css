@@ -293,6 +293,12 @@ img {
   letter-spacing: 0.03em;
 }
 
+/* .our-team li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+} */
+
 /* портфолио */
 
 .portfolio-section {
@@ -354,6 +360,9 @@ li button:focus {
 }
 
 .portfolio-section .gallery {
+  /* border-bottom: 1px solid rgba(238, 238, 238, 1);
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1); */
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
